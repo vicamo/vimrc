@@ -18,6 +18,8 @@ filetype on
 filetype indent on
 " Enable filetype-specific plugins
 filetype plugin on
+" Customized filetypes
+au BufNewFile,BufRead *.jsm set filetype=javascript
 
 " syntax highlight
 syntax on
