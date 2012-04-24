@@ -8,6 +8,8 @@ set nocompatible
 set ruler
 " Show current mode
 set showmode
+" Show line number
+set number
 
 " auto read when file is changed from outside
 set autoread
