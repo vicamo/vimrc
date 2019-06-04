@@ -25,6 +25,8 @@ au BufNewFile,BufRead *.jsm set filetype=javascript
 
 " syntax highlight
 syntax on
+" 80 characters line
+set colorcolumn=81
 
 " incremental search
 set incsearch
