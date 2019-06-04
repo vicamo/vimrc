@@ -1,0 +1,3 @@
+[submodule "pack/common/start/cscope-maps"]
+	path = pack/common/start/cscope-maps
+	url = https://github.com/joe-skb7/cscope-maps.git
