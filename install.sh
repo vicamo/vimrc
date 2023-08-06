@@ -15,7 +15,7 @@ die() {
 [ -e ".vimrc" ] && die ".vimrc already exists."
 [ -e ".gvimrc" ] && die ".gvimrc already exists."
 
-git clone git://github.com/vicamo/vimrc.git "$VIMHOME"
+git clone https://github.com/vicamo/vimrc.git "$VIMHOME"
 
 CWD=`pwd`
 cd "$VIMHOME"
