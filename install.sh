@@ -22,8 +22,8 @@ cd "$VIMHOME"
 git submodule update --init
 cd "$CWD"
 
-ln -s "$VIMHOME/vimrc" .vimrc
-ln -s "$VIMHOME/gvimrc" .gvimrc
+ln -s .vim/vimrc ~/.vimrc
+ln -s .vim/gvimrc ~/.gvimrc
 
 echo "vimrc is installed."
 
